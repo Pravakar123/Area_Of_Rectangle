@@ -1,2 +1,18 @@
-# Area_Of_Rectangle
-Given a Rectangle:  image  Take Length and Breadth as input and find the area of Rectangle.  Input Format  Two Lines of input.  First Line will contain an integer as Length of rectangle. Second Line will contain an integer as Breadth of rectangle. Constraints  1&lt;=Length&lt;=1000  1&lt;=Breadth&lt;=1000  Output Format  Single Line of Output  Output will contain an integer value as area of rectangle. Sample Input 0  9 6 Sample Output 0  54
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner s=new Scanner(System.in);
+        
+        int length = s.nextInt();
+       
+       int width = s.nextInt();
+       //Area = length*width;
+        int area = length*width;
+       System.out.println(area);
+       
+    }
+}
